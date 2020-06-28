@@ -75,9 +75,9 @@ if __name__ == '__main__':
             k += 1
             continue
     if k>j :
-        print(f"\n\t{player1} had {j-k} guess lesser than {player2}.\n\t\t*****WINNER is {player1}*****.")
+        print(f"\n\t{player1} had {k-j} guess lesser than {player2}.\n\t\t*****WINNER is {player1}*****.")
     elif j>k :
-        print(f"\n\t{player2} had {k-j} guess lesser than {player1}.\n\t\t*****WINNER is {player2}*****.")
+        print(f"\n\t{player2} had {j-k} guess lesser than {player1}.\n\t\t*****WINNER is {player2}*****.")
     elif j == k:
         print(f"\n\t{player1} and {player2} play again!! This Game is Draw.")
     else :
